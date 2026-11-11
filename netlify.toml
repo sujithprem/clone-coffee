@@ -1,0 +1,6 @@
+# The site's UI build settings point the base directory at "redirect",
+# which does not exist in this repository. File-based config takes
+# precedence, so pin the base to the repository root here.
+[build]
+  base = "/"
+  publish = "."
